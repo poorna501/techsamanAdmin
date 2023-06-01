@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: bisque !important;
+  background-color: rgb(245, 207, 132) !important;
 }
 .txt_center {
   text-align: center;
@@ -23,10 +23,15 @@ body {
   padding: 0px 20px;
 }
 .addbtn {
-  background-color: rgb(224, 153, 19);
+  background-color: rgb(224, 153, 19) !important;
   width: 100%;
+  padding: 12px !important;
 }
 .custom_height {
-  min-height: 100vh;
-  
+  min-height: 80vh;
+}
+.a_href {
+  color: gray;
+  text-decoration: none;
+  color: unset !important;
 }
