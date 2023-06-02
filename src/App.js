@@ -1,6 +1,6 @@
 import React from 'react';
 import {Routes, Route, Navigate} from 'react-router-dom';
-import Login from "./screens/login";
+import Login from "./auth/login";
 
 
 function App() {
