@@ -1,12 +1,15 @@
 import { Col, Container, Form, Row, Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 // import LOGO from "../imges/logo.JPG";
 
 const Login = () => {
+    let navigator = useNavigate();
+    document.body.style.backgroundColor = "rgb(245, 207, 132)";
     function onSubmit(reqObj) {
+        navigator("/dashboard")
         console.log(reqObj);
     }
-
     const { register, handleSubmit, formState: { errors } } = useForm();
 
     return (
